@@ -236,7 +236,6 @@ class Detail extends Component {
                           <th> Tên SP</th>
                           <th> Giá </th>
                           <th> Số lượng </th>
-                          <th> Khuyến mãi </th>
                           <th> Tổng Tiền </th>
                         </tr>
                       </thead>
@@ -247,7 +246,6 @@ class Detail extends Component {
                             <td>{item.name}</td>
                             <td>{item.price.toLocaleString()} </td>
                             <td>{item.quantity} </td>
-                            <td>{item.discount} % </td>
                             <td>
                               {(item.price * item.quantity).toLocaleString()}{" "}
                               VND
@@ -318,7 +316,6 @@ class Detail extends Component {
                           <th> Tên SP</th>
                           <th> Giá </th>
                           <th> Số lượng </th>
-                          <th> Khuyến mãi </th>
                           <th> Tổng Tiền </th>
                         </tr>
                       </thead>
@@ -329,7 +326,6 @@ class Detail extends Component {
                             <td>{item.name}</td>
                             <td>{item.price.toLocaleString()} </td>
                             <td>{item.quantity} </td>
-                            <td>{item.discount} % </td>
                             <td>
                               {(item.price * item.quantity).toLocaleString()}{" "}
                               VND
